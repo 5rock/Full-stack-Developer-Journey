@@ -1,57 +1,48 @@
-#Full Stack Development Journey 🚀
+🚀 Full Stack Development Journey
 
 📌 About This Repository
 
-I started my Full Stack Development journey from absolute scratch. This repository is a public record of my day-to-day learning, practice, and progress as I build skills step by step.
-The goal is to learn by doing, regularly revise fundamentals, and gradually move toward building real-world applications.
+I started my Full Stack Development journey from absolute scratch. This repository documents my day-to-day learning, practice, and progress, and also outlines my roadmap toward becoming a full-stack developer.
 
-🔰 How I Started
 
-I began with the basics and continue expanding my skill set:
+🔰 Currently Learning
 
-HTML – Structure of web pages
-
-CSS – Styling and layouts
-
-JavaScript – Fundamentals (in progress)
-
+HTML – Structure and semantic markup
+CSS – Styling, layouts, responsiveness
+JavaScript – Core fundamentals (in progress)
 SQL – Database basics
+Git & GitHub – Version control
 
-Git & GitHub – Version control and collaboration
+
+🛣️ Learning Roadmap (My Goal)
+
+The following technologies are part of my planned learning path and will be added gradually as I progress:
+Advanced JavaScript
+Frontend Framework: React.js
+Backend: Node.js & Express.js
+Database: MongoDB
+Authentication & APIs
+Deployment & Hosting
 
 📂 What This Repository Contains
 
-Daily learning notes
-
-Practice code and revisions
-
-Beginner-friendly examples
-
-Mini projects and components
-
-Continuous improvements and refactoring
-
-Each commit reflects what I learned that day.
+Daily learning notes and revisions
+Practice code and examples
+Mini projects
+Step-by-step progress through commits
 
 🎯 My Goal
 
-To grow from a beginner into a confident full-stack developer capable of building scalable, production-ready web applications.
+To grow from a beginner into a confident full-stack developer capable of building scalable, real-world web applications.
 
 📈 Learning Approach
 
 Start from fundamentals
-
 Practice consistently
-
 Learn in public
-
 Improve step by step
-
-🔄 Repository Updates
-
-This repository is updated regularly as I learn new concepts and build projects.
 
 🤝 Contributions & Feedback
 
-Suggestions, feedback, and improvements are always welcome.
-Feel free to explore the repository and follow my journey!
+Suggestions and feedback are always welcome.
+Feel free to explore the repository and follow my learning journey.
