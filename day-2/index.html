@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice</title>
+</head>
+
+<body>
+
+    <!-- First Table -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Gender</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>M</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>F</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>M</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <!-- Second Table -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Gender</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>M</td>
+                <td rowspan="3">15</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>F</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <!-- Login Form -->
+    <h1>Login Page</h1>
+
+    <form>
+
+        <label for="email">Enter Email ID:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+
+        <label for="city">Choose your city:</label>
+        <input list="cities" id="city" name="city">
+        <datalist id="cities">
+            <option value="New York">
+            <option value="Los Angeles">
+            <option value="Chicago">
+            <option value="Houston">
+            <option value="Phoenix">
+        </datalist>
+        <br><br>
+
+        <label for="message">Enter your message:</label>
+        <textarea id="message" name="message"></textarea>
+        <br><br>
+
+        <label for="date">Select a date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+<label for="textarea">Textarea:</label>
+<br>
+        <textarea cols="30" rows="5" placeholder="Hi"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
