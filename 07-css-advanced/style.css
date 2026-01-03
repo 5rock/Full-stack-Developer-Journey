@@ -1,0 +1,107 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Heading */
+h1 {
+    color: brown;
+    text-align: center;
+    margin: 20px 0;
+    border: 2px dotted black;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+}
+
+/* Paragraphs */
+.para1 {
+    color: green;
+    font-size: 20px;
+    border: 2px solid blue;
+    padding: 12px;
+    margin: 15px 0;
+    background-color: #f0f8ff;
+}
+
+.para2 {
+    color: rgb(170, 10, 170);
+    font-size: 18px;
+    border: 2px dashed rgb(215, 150, 30);
+    border-top-left-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #ffe4e1;
+}
+
+.para3 {
+    color: teal;
+    font-size: 16px;
+    border: 3px double red;
+    padding: 8px;
+    margin: 15px 0;
+    background-color: #e6e6fa;
+}
+
+/* Card Component */
+.card {
+    border: 2px solid #333;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #fafafa;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: darkred;
+}
+
+/* Fixed Box */
+.box {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #dff0d8;
+}
+
+/* List Styling */
+.list {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.list li {
+    margin: 8px 0;
+    padding: 6px;
+    border-left: 4px solid brown;
+    background-color: #f9f9f9;
+}
