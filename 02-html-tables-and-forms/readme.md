@@ -1,79 +1,70 @@
-📅 Day 2 – HTML Tables & Forms Practice
-📌 Overview
+# 📅 Day 2 – HTML Tables & Forms Practice
 
-On Day 2, I practiced core HTML concepts focusing on tables and forms.
-This day helped me understand how to structure data, collect user input, and use different form controls properly.
+## 📌 Overview
+On **Day 2**, I practiced core **HTML concepts** with a focus on **tables and forms**.  
+This helped me understand how to **structure data**, **collect user input**, and use different **form controls** effectively.
 
-🧠 Topics Covered
-🟦 HTML Tables
+---
 
-Created basic tables using <table>, <thead>, <tbody>, <tr>, <th>, and <td>
+## 🧠 Topics Covered
 
-Used:
+### 🟦 HTML Tables
+- Created structured tables using:
+  - `<table>`, `<thead>`, `<tbody>`
+  - `<tr>`, `<th>`, `<td>`
+- Used **table headers** for clarity
+- Applied `rowspan` to merge rows
+- Learned how tables represent real-world data such as **student records**
 
-rowspan to merge rows
+---
 
-Table headers for clarity
+### 🟦 HTML Forms (Login Page)
+Built a **Login Form** using various input types:
+- Email input (`type="email"`)
+- Password input (`type="password"`)
+- Radio buttons (Gender selection)
+- Dropdown menu (`<select>`)
+- City suggestions using `<datalist>`
+- Textarea for messages
+- Date input
+- Submit button
 
-Learned how tables represent structured data like student records
+---
 
-🟦 HTML Forms (Login Page)
+### 🟦 Event Registration Form
+Created a separate **Event Registration Form** that includes:
+- Name, Email, Phone inputs
+- Occupation dropdown
+- Proper use of **labels** and **placeholders** for usability and accessibility
 
-Built a Login Form with:
+---
 
-Email input (type="email")
-
-Password input (type="password")
-
-Radio buttons (Gender selection)
-
-Dropdown (<select>)
-
-Datalist (<datalist>) for city suggestions
-
-Textarea for messages
-
-Date input
-
-Submit button
-
-🟦 Event Registration Form
-
-Created an Event Registration page
-
-Included:
-
-Name, Email, Phone inputs
-
-Occupation dropdown
-
-Used proper labels and placeholders for better usability
-
-🧪 Files Included
+## 🧪 Files Included
 
 index.html
-Contains:
 
-Two HTML tables
 
-Login form with multiple input types
+### Contains:
+- Two HTML tables
+- Login form with multiple input types
+- Event registration form
 
-Event registration form
+---
 
-🎯 What I Learned
+## 🎯 What I Learned
+- How to structure tabular data using HTML tables
+- Purpose and usage of different form input types
+- Importance of `<label>` for accessibility
+- How HTML forms collect and organize user input
 
-How to structure data using tables
+---
 
-How different form input types work
+## 🚀 Next Steps
+- Add **CSS styling** to improve UI
+- Learn **form validation**
+- Connect forms with **JavaScript**
 
-Importance of <label> for accessibility
+---
 
-How HTML forms collect and organize user input
-
-🚀 Next Steps
-
-Add CSS styling to improve UI
-
-Learn form validation
-
-Connect forms with JavaScript
+## ⭐ Key Takeaway
+This practice strengthened my understanding of **HTML forms and tables**, which are essential for building interactive and data-driven web pages.

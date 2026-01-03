@@ -1,84 +1,42 @@
-📘 Day 6 – CSS Selectors & Styling Basics
-📌 Overview
+# 📘 Day 6 – CSS Selectors & Styling Basics
 
-On Day 6, I learned and practiced basic CSS styling and how to apply styles to HTML elements using:
+## 📌 Overview
+Practice project focused on **CSS selectors** and **basic styling**.  
+Demonstrates how CSS controls the **look and feel** of a webpage using element selectors, ID selectors, and Google Fonts.
 
-Element selectors
+---
 
-ID selectors
+## 🛠️ Tech Used
+- HTML5
+- CSS3
+- Google Fonts (Lobster)
 
-External CSS file
+---
 
-Google Fonts
+## ✨ Key Concepts
+- Element selectors (`p`)
+- ID selectors (`#para2`, `#para3`, `#para4`)
+- External CSS file
+- Font styling & text decoration
+- Backgrounds, borders, padding
+- Using Google Fonts
 
-This day focused on understanding how CSS controls the look and feel of a webpage.
+---
 
-🧱 Topics Covered
-✅ HTML
+## 🎨 Output
+A simple webpage showing different styles applied to paragraphs using CSS selectors.
 
-Basic HTML structure
+---
 
-Paragraphs (<p>)
+## 🎯 What I Learned
+- CSS selector usage and priority
+- Proper use of IDs (unique & valid naming)
+- Linking and using Google Fonts
+- Debugging CSS by matching selectors correctly
 
-Headings (<h1>)
+---
 
-Using id attributes
-
-Linking external CSS
-
-Adding Google Fonts via <link>
-
-✅ CSS
-
-body background styling
-
-Element selector (p)
-
-ID selectors (#para2, #para3, #para4)
-
-Font styling (size, family, style)
-
-Text decoration
-
-Background colors
-
-Borders, padding, border-radius
-
-Using Google Font Lobster
-
-🎨 What Each Paragraph Demonstrates
-Element	Description
-p	Default paragraph styling (italic, cursive font, orange color)
-#para2	Blue text, bold, underlined
-#para3	Green text, red background, Lobster font
-#para4	Custom background, border, padding, rounded corners
-🧠 Key Learnings
-
-IDs must be unique and cannot start with numbers
-
-External CSS keeps HTML clean
-
-Google Fonts are added in HTML and used in CSS
-
-CSS selectors apply styles based on priority
-
-Debugging CSS requires matching selectors exactly
-
-📁 File Structure
-Day-6/
-│
-├── index.html
-├── style.css
-└── README.md
-
-🚀 Output
-
-A simple webpage demonstrating different CSS styles applied to multiple paragraphs using selectors.
-
-✨ Next Steps
-
-Learn class selectors
-
-Understand CSS Box Model
-
-Build small layouts
+## 📁 Files
+index.html
+style.css
+readme.md

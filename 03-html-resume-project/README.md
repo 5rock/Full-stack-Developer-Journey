@@ -1,52 +1,26 @@
-📄 HTML Resume – Ritesh Kumar Sahu
-📌 Project Overview
+## 📌 Project Overview
+A **semantic HTML resume webpage** built as part of my **Full-Stack Development Journey**.  
+Focused on creating a **clean, accessible, and well-structured resume** using pure HTML and best practices.
 
-This project is a semantic HTML resume webpage built as part of my Full-Stack Development Journey.
-The goal was to create a clean, accessible, and well-structured resume using pure HTML, following best practices for accessibility, semantics, and security.
+---
 
-🛠️ Technologies Used
+## 🛠️ Tech Used
+- HTML5
+- Semantic HTML
+- Basic accessibility features
 
-HTML5
+---
 
-Semantic HTML elements
-
-Basic accessibility features
-
-✨ Key Features
-🧩 Semantic Structure
-
-Used modern HTML5 tags:
-
-<header> for personal details
-
-<main> for core content
-
-<section> for logical grouping
-
-<footer> for copyright
-
-Improves readability, SEO, and accessibility
-
-♿ Accessibility Improvements
-
-Descriptive alt text for profile image
-
-Proper use of headings (h1–h3)
-
-<details> and <summary> used for FAQ section
-
-aria-label added to key sections
-
-🔐 Security Best Practices
-
-External links (LinkedIn, GitHub) include:
-
+## ✨ Key Highlights
+- Semantic structure using `<header>`, `<main>`, `<section>`, `<footer>`
+- Proper heading hierarchy and descriptive `alt` text
+- FAQ section using `<details>` and `<summary>`
+- Secure external links using:
+```html
 rel="noopener noreferrer"
 
 
-to prevent security vulnerabilities when using target="_blank".
-
-📚 Resume Sections Included
+📚 Resume Sections
 
 Personal Information
 
@@ -62,29 +36,13 @@ Achievements
 
 Projects
 
-Frequently Asked Questions (FAQ)
-
-📂 File Structure
-resume-project/
-│
-├── index.html        # Resume webpage
-├── ritesh.kumar.sahu.jpg  # Profile image
-└── README.md         # Project documentation
+FAQ
 
 🎯 Learning Outcomes
 
-Writing clean and semantic HTML
+Writing clean, semantic HTML
 
-Improving accessibility in web pages
+Improving accessibility
 
-Structuring real-world documents (resume)
+Structuring real-world documents
 
-Applying security best practices for links
-
-🚀 Future Enhancements
-
-Add CSS styling for a professional design
-
-Make the resume fully responsive
-
-Add a downloadable PDF option

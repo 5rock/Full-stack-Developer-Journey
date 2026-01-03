@@ -1,7 +1,7 @@
-Day 1 – HTML Basics 🌐
-📌 What I Practiced
+Day 1 – HTML Basics 
 
-This file contains my first HTML practice where I learned the basic structure and commonly used HTML tags.
+📌 Overview
+This section documents my Day 1 practice in HTML, where I learned the fundamental building blocks used to create and structure web pages. The goal was to understand how HTML elements work and how content is rendered in the browser.
 
 🧱 Topics Covered
 
@@ -9,30 +9,22 @@ HTML boilerplate structure
 
 Headings (h1 to h6)
 
-Text formatting tags (b, i, u)
+Text formatting tags (<b>, <i>, <u>)
 
-Line break and horizontal rule
+Line break (<br>) and horizontal rule (<hr>)
 
-Anchor tag (links)
+Anchor tag for links (<a>)
 
-Image tag
+Image tag (<img>)
 
-Ordered and unordered lists
+Ordered and unordered lists (<ol>, <ul>)
 
-Basic table structure
+Basic table structure (<table>, <tr>, <th>, <td>)
 
 🛠️ Practice Work
 
-Created a simple HTML page
+Built a simple HTML webpage from scratch
 
-Used multiple HTML elements to understand their behavior
+Implemented multiple HTML elements to observe their behavior
 
-Learned how content is displayed in a browser
-
-🧠 Key Learning
-
-HTML is used to structure web pages
-
-Tags define how content appears
-
-Some tags like h7 do not exist in HTML
+Practiced structuring content for proper browser display
