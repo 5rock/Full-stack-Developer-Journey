@@ -1,0 +1,30 @@
+/* Global reset & best practice */
+* {
+    box-sizing: border-box;
+}
+
+/* Block elements */
+.section {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Box model demo */
+#box1 {
+   height: 100px;
+    width: 500px;
+    background-color: lightblue;
+    margin: 15px;
+    padding: 55px;
+    border: 10px solid red;
+}
+
+/* Span styling */
+.spans span {
+    display: inline-block;     /* KEY FIX */
+    background-color: yellow;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid green;
+}
