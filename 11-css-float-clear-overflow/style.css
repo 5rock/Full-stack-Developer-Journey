@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* Layout */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    color: #2563eb;
+}
+
+/* FLOAT */
+.float-img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* CLEAR */
+.box {
+    width: 45%;
+    padding: 1rem;
+    color: white;
+}
+
+.left {
+    float: left;
+    background-color: #22c55e;
+}
+
+.right {
+    float: right;
+    background-color: #f97316;
+}
+
+.clear-box {
+    clear: both;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #e5e7eb;
+    text-align: center;
+}
+
+/* OVERFLOW */
+.overflow-box {
+    height: 100px;
+    overflow: auto;
+    padding: 1rem;
+    background-color: #fef3c7;
+    border: 1px solid #f59e0b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e5e7eb;
+    font-size: 0.9rem;
+}

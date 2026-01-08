@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering CSS Float, Clear & Overflow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS Float, Clear & Overflow</h1>
+        <p>Understanding classic layout techniques</p>
+    </header>
+
+    <main>
+
+        <!-- FLOAT EXAMPLE -->
+        <section class="card">
+            <h2>Float Example</h2>
+            <img src="download.webp"
+                alt="Sample" class="float-img">
+            <p>
+                This image is floated to the left. Text wraps around the image
+                using the <strong>float</strong> property.
+            </p>
+        </section>
+
+        <!-- CLEAR EXAMPLE -->
+        <section class="card clear-demo">
+            <h2>Clear Example</h2>
+            <div class="box left">Float Left</div>
+            <div class="box right">Float Right</div>
+            <div class="clear-box">Cleared Content</div>
+        </section>
+
+        <!-- OVERFLOW EXAMPLE -->
+        <section class="card">
+            <h2>Overflow Example</h2>
+            <div class="overflow-box">
+                This box has a fixed height. When content exceeds the height,
+                overflow behavior controls how extra content is displayed.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellendus, magni, exercitationem!
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CSS Layout Practice</p>
+    </footer>
+
+</body>
+
+</html>
