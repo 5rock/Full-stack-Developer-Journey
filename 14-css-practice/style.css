@@ -1,0 +1,122 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* Layout */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    color: #2563eb;
+}
+
+/* BOX MODEL */
+.box-model {
+    padding: 20px;
+    border: 4px solid #22c55e;
+    margin: 10px 0;
+    background-color: #dcfce7;
+}
+
+/* POSITIONING */
+.relative-box {
+    position: relative;
+    padding: 30px;
+    background-color: #e0e7ff;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #7c3aed;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* FLEXBOX */
+.flex-container {
+    display: flex;
+    gap: 10px;
+}
+
+.flex-box {
+    width: 60px;
+    height: 60px;
+    background-color: #22c55e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.self {
+    align-self: flex-end;
+    background-color: #f97316;
+}
+
+/* FLOAT & CLEAR */
+.float-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.clear-box {
+    clear: both;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e5e7eb;
+}
+
+/* OVERFLOW */
+.overflow-box {
+    height: 80px;
+    overflow: auto;
+    padding: 10px;
+    background-color: #fef3c7;
+    border: 1px solid #f59e0b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e5e7eb;
+    font-size: 0.9rem;
+}
