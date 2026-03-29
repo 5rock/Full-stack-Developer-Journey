@@ -1,0 +1,91 @@
+/* Day 21 - CSS Grid Advanced */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Arial', sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+  padding: 1rem;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.site-header h1 {
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
+}
+
+.site-header p {
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    'header header header header header header header header header header header header'
+    'nav nav feature feature feature analytics analytics reports reports reports charts charts'
+    'nav nav activity activity activity settings settings settings settings settings settings settings'
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+  gap: 1rem;
+  min-height: 70vh;
+}
+
+.panel {
+  padding: 1.25rem;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  border-left: 0.4rem solid #4f46e5;
+}
+
+.header-panel { grid-area: header; }
+.nav-panel { grid-area: nav; }
+.feature-panel { grid-area: feature; }
+.analytics-panel { grid-area: analytics; }
+.reports-panel { grid-area: reports; }
+.chart-panel { grid-area: charts; }
+.activity-panel { grid-area: activity; }
+.settings-panel { grid-area: settings; }
+.footer-panel { grid-area: footer; }
+
+@media (max-width: 1100px) {
+  .dashboard-grid {
+    grid-template-areas:
+      'header'
+      'nav'
+      'feature'
+      'analytics'
+      'reports'
+      'charts'
+      'activity'
+      'settings'
+      'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, auto);
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1450px) {
+  .dashboard-grid {
+    grid-template-areas:
+      'header header header header header header header header header header header header'
+      'nav nav nav nav feature feature analytics analytics reports reports charts charts'
+      'activity activity activity activity settings settings settings settings settings settings settings settings'
+      'footer footer footer footer footer footer footer footer footer footer footer footer';
+  }
+}
+
+@media (max-width: 640px) {
+  body { padding: 0.75rem; }
+  .panel { padding: 1rem; }
+}

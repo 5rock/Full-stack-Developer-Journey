@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 25 - CSS Position Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>CSS Position Practice</h1>
+    <p>Sticky navbar, fixed action button, and absolute layer examples.</p>
+  </header>
+
+  <nav class="sticky-nav">
+    <ul>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#layout">Layout</a></li>
+      <li><a href="#stack">Stack</a></li>
+    </ul>
+  </nav>
+
+  <main class="page-grid">
+    <section id="intro" class="content-box static-box">
+      <h2>Static Position (Default)</h2>
+      <p>This block uses normal document flow with static positioning (no `position` property set).</p>
+    </section>
+
+    <section id="layout" class="content-box relative-box">
+      <h2>Relative + Absolute Position</h2>
+      <p>Relative parent sets the reference frame for an absolutely positioned child.</p>
+      <div class="relative-wrapper">
+        <div class="absolute-child">Absolute inside relative</div>
+      </div>
+    </section>
+
+    <section id="stack" class="content-box absolute-box">
+      <h2>Layered Absolute Elements</h2>
+      <p>Horizontal stack with top overlay managed by `z-index`.</p>
+      <div class="layer-frame">
+        <div class="layer base">Base layer (lower z-index)</div>
+        <div class="layer top">Top layer (higher z-index)</div>
+      </div>
+    </section>
+
+    <section class="content-box fixed-box">
+      <h2>Fixed Button</h2>
+      <p>Scroll the page to confirm the action button is fixed to the bottom-right of the viewport.</p>
+      <button class="action-button">Help</button>
+    </section>
+
+    <section class="content-box sticky-demo">
+      <h2>Sticky Sidebar</h2>
+      <p>This sidebar remains visible until the parent container is out of view.</p>
+      <div class="sticky-area">
+        <div class="sticky-box">I stick near top while scrolling in this section</div>
+        <div class="placeholder">
+          <p>Content inside the same section to allow more scrolling area.</p>
+          <p>...repeat content blocks...</p>
+          <p>...repeat content blocks...</p>
+          <p>...repeat content blocks...</p>
+          <p>...repeat content blocks...</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 CSS Position Practice. Nothing here is truly moving in the DOM.</p>
+  </footer>
+</body>
+</html>

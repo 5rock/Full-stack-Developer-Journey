@@ -1,0 +1,181 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #1e293b;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #334155;
+    border-radius: 5px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #2563eb;
+}
+
+/* IMAGE */
+.card img {
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.inline {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+/* CSS BASICS */
+.highlight {
+    padding: 15px;
+    border: 2px dashed brown;
+    background-color: #fff7ed;
+}
+
+.box-model {
+    margin: 15px 0;
+    padding: 15px;
+    border: 3px solid #22c55e;
+    background-color: #ecfdf5;
+}
+
+/* FLEXBOX */
+.flex-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.flex-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #fde68a;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* POSITION */
+.position-demo {
+    position: relative;
+    margin-top: 20px;
+    height: 150px;
+    background-color: #e5e7eb;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #86efac;
+}
+
+.absolute-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #fca5a5;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e5e7eb;
+    font-size: 14px;
+}

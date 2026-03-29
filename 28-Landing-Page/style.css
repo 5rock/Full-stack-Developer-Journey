@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+/* NAVBAR */
+header {
+    position: fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-right {
+    display: flex;
+    gap: 1rem;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.primary {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: white;
+}
+
+.primary:hover {
+    transform: scale(1.05);
+}
+
+.outline {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+/* FEATURES */
+.features {
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 4rem;
+    background: #111;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* DARK MODE */
+.dark {
+    background: #111;
+    color: white;
+}

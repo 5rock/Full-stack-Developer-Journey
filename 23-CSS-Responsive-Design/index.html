@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 23 - Responsive Design</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Responsive Design Practice</h1>
+    <nav class="main-nav">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h2>Mobile-first responsive UI</h2>
+      <p>Fluid typography, percentage-based layout, and breakpoint-driven adjustments for all viewports.</p>
+      <a class="btn" href="#features">Explore</a>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Features</h2>
+      <div class="cards-grid">
+        <article class="feature-card">
+          <h3>Fluid Grid</h3>
+          <p>Grid adaptively scales with available width using percentage and minmax values.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Responsive Typography</h3>
+          <p>Text sizes use clamp() so headers scale seamlessly across phones to desktops.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Mobile-first Breakpoints</h3>
+          <p>Styles build from smallest to largest using media queries.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2>Pricing</h2>
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Basic</h3>
+          <p><strong>$9</strong>/month</p>
+          <ul>
+            <li>1 site</li>
+            <li>5GB storage</li>
+            <li>Email support</li>
+          </ul>
+        </article>
+        <article class="price-card">
+          <h3>Pro</h3>
+          <p><strong>$29</strong>/month</p>
+          <ul>
+            <li>5 sites</li>
+            <li>50GB storage</li>
+            <li>Priority support</li>
+          </ul>
+        </article>
+        <article class="price-card">
+          <h3>Enterprise</h3>
+          <p><strong>$79</strong>/month</p>
+          <ul>
+            <li>Unlimited sites</li>
+            <li>500GB storage</li>
+            <li>Dedicated manager</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Responsive Practice. Built with pure CSS.</p>
+  </footer>
+</body>
+</html>

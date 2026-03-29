@@ -1,0 +1,114 @@
+/* Day 17 - CSS 2D Transforms */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7fa;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.transform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.transform-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.transform-card h3 {
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.transform-card p {
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+.demo-box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Transform effects on hover */
+#translate .demo-box:hover {
+    transform: translate(20px, 10px);
+}
+
+#rotate .demo-box:hover {
+    transform: rotate(45deg);
+}
+
+#scale .demo-box:hover {
+    transform: scale(1.2);
+}
+
+#skew .demo-box:hover {
+    transform: skew(20deg, 10deg);
+}
+
+#combined .demo-box:hover {
+    transform: translate(10px, 5px) rotate(15deg) scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .transform-grid {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}

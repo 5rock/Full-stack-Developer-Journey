@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Revision – HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Full HTML & CSS Revision</h1>
+    <p>Basics to Advanced – One Page Practice</p>
+</header>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#layout">Layout</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+
+    <!-- HTML BASICS -->
+    <section id="html" class="card">
+        <h2>HTML Basics</h2>
+        <p>This section revises headings, text, links, images and lists.</p>
+
+        <img src="https://via.placeholder.com/150" alt="Sample image">
+
+        <ul>
+            <li>HTML Structure</li>
+            <li>Tags & Attributes</li>
+            <li>Semantic Elements</li>
+        </ul>
+
+        <a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">
+            Learn HTML on MDN
+        </a>
+    </section>
+
+    <!-- TABLES -->
+    <section id="tables" class="card">
+        <h2>HTML Tables</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ritesh</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Alex</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- FORMS -->
+   <section id="forms" class="card">
+    <h2>HTML Forms</h2>
+
+    <form>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+
+        <label>Gender:</label>
+        <div class="inline">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <label for="skills">Skills:</label>
+        <select id="skills">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</section>
+
+
+    <!-- CSS BASICS -->
+    <section id="css" class="card">
+        <h2>CSS Basics</h2>
+        <p class="highlight">
+            This paragraph demonstrates selectors, colors, padding, margin, and borders.
+        </p>
+
+        <div class="box-model">
+            CSS Box Model (Margin → Border → Padding → Content)
+        </div>
+    </section>
+
+    <!-- LAYOUT -->
+    <section id="layout" class="card">
+        <h2>CSS Layout (Flexbox & Position)</h2>
+
+        <div class="flex-container">
+            <div class="flex-box">Flex 1</div>
+            <div class="flex-box">Flex 2</div>
+            <div class="flex-box">Flex 3</div>
+        </div>
+
+        <div class="position-demo">
+            <div class="relative-box">Relative</div>
+            <div class="absolute-box">Absolute</div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2025 Full Stack Development Journey</p>
+</footer>
+
+</body>
+</html>
